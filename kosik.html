@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Košík | svaly.cz</title>
+    <meta name="author" content="Pavel Radvan">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="header" class="center">
+        <a href="index.html" id="header_logo"><img src="images/logo.png"></a>
+
+        <ul id="header_menu">
+            <li>
+                <a href="" id="item_my_account"></a>
+            </li>
+            <li>
+                <a href="" id="item_all_about_shopping"></a>
+            </li>
+            <li>
+                <a href="" id="item_contact"></a>
+            </li>
+        </ul>
+
+        <a href="" id="header_search"><img src="images/search.png"></a>
+
+        <a href="" id="header_cart">
+            <div id="header_cart_count_items"><p>3</p></div>
+        </a>
+    </div>
+    <!-- Header end -->
+
+    <!-- Submenu -->
+    <div id="submenu_wrapper">
+        <div class="center">
+            <ul id="submenu">
+                <li class="first">
+                    <a href="" id="item_body_building"></a>
+
+                    <ul class="submenu_subitems">
+                        <li>test 1</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="" id="item_perseverance"></a>
+
+                    <ul class="submenu_subitems">
+                        <li>test 2</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="" id="item_weight_loss"></a>
+
+                    <ul class="submenu_subitems">
+                        <li>test 3</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="" id="item_health_and_wellness"></a>
+
+                    <ul class="submenu_subitems">
+                        <li>test 4</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="" id="item_fitness_and_other"></a>
+
+                    <ul class="submenu_subitems show">
+                        <li>
+                            <img src="images/head_menu/1.png">
+                            <p><a href="" class="submenu_subitems_title">Láhve a šejkry</a>
+                            <a href="">Láhve,</a> <a href="">Příslušenství,</a> <a href="">Šejkry</a></p>
+                        </li>
+
+                        <li>
+                            <img src="images/head_menu/2.png">
+                            <p><a href="" class="submenu_subitems_title">Rukavice, opasky</a>
+                            <a href="">Háky a trhačky,</a><a href="">Opasky,</a><a href="">Rukavice,</a><a href="">Rukavice pro box a thaibox</a></p>
+                        </li>
+
+                        <li>
+                            <img src="images/head_menu/3.png">
+                            <p><a href="" class="submenu_subitems_title">Rehabilitace a kosmetika</a>
+                            <a href="">Bandáže a tejpovací,</a><a href="">Chrániče,</a><a href="">Korektory,</a><a href="">Masážní a chladící přípravky,</a><a href="">Ošetření nohou,</a>
+                            <a href="">Solární kosmetika,</a><a href="">Soutěžní barvy</a></p>
+                        </li>
+
+                        <li class="cleaner"></li>
+
+                        <li>
+                            <img src="images/head_menu/4.png">
+                            <p><a href="" class="submenu_subitems_title">Tréninkové počítače</a>
+                            <a href="">Stopky,</a> <a href="">Tepové měřiče,</a> <a href="">Tepové měřiče</a></p>
+                        </li>
+
+                        <li>
+                            <img src="images/head_menu/5.png">
+                            <p><a href="" class="submenu_subitems_title">Fitness vybavení</a>
+                            <a href="">Činky a závaží,</a><a href="">Posilovací lavice,</a><a href="">Hrazdy,</a><a href="">Trenažery</a></p>
+                        </li>
+
+                        <li>
+                            <img src="images/head_menu/6.png">
+                            <p><a href="" class="submenu_subitems_title">Ostatní</a>
+                            <a href="">Filtrovací konvice</a></p>
+                        </li>
+
+                        <li class="cleaner"></li>
+
+                        <li>
+                            <img src="images/head_menu/7.png">
+                            <p><a href="" class="submenu_subitems_title">Sportovní oblečení a potřeby</a>
+                            <a href="">Ručníky,</a><a href="">Sportovní oblečení,</a><a href="">Tašky a kapsičky</a></p>
+                        </li>
+
+                        <li>
+                            <img src="images/head_menu/8.png">
+                            <p><a href="" class="submenu_subitems_title">Příslušenství</a>
+                            <a href="">Boxovací hruška,</a><a href="">Fitness činky,</a><a href="">Lanový adaptér,</a><a href="">Míče,</a><a href="">Podložky na cvičení,</a>
+                            <a href="">Posilovače,</a><a href="">Švihadla,</a><a href="">Tvarování postavy,</a><a href="">Závaží na ruce,</a><a href="">Nohy</a></p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="cleaner"></div>
+        </div>
+    </div>
+    <!-- Submenu end -->
+
+
+    <!-- Content -->
+    <div id="content" class="center">
+        <div id="cart_banner">
+            <img src="images/cart_banner.png">
+        </div>
+        
+        <!-- Cart content end -->
+        <div id="cart_content">
+            <div id="cart_content_top">
+                <a href=""><img src="images/cart_button_1.png"></a>
+                <img src="images/info_ico.png" class="info">
+                <p>Při objednávce nad 2 000 Kč <strong>doprava zdarma!</strong></p>
+            </div>
+            
+            <table id="cart_products">
+                <thead>
+                    <tr>
+                        <th class="cart_product">Produkt</th>
+                        <th class="cart_price">Cena za kus</th>
+                        <th class="cart_count">Počet</th>
+                        <th class="cart_availability">Dostupnost</th>
+                        <th class="cart_sum">Celkem</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                      <td colspan="4" class="sum_price_text">Celková cena včetně DPH</td>
+                      <td class="sum_price">849 Kč</td>
+                    </tr>
+                </tfoot>
+                <tbody>
+                    <tr class="border">
+                        <td class="cart_product">
+                            <img src="images/products/cart_1.png">
+                            <a href="" class="product_title">BSN SYNTHA 6</a>
+                            <p>příchuť vanilka. balení 1320 g</p>
+                            <a href="" class="other_variant">Vybrat jinou variantu</a>
+                        </td>
+                        <td class="cart_price">749 Kč</td>
+                        <td class="cart_count">
+                            <input type="text" name="count" min="1" max="5" value="1">
+                        </td>
+                        <td class="cart_availability">
+                            <span><strong>Skladem</strong> <br /> >5ks</span>
+                        </td>
+                        <td class="cart_sum"><strong>749 Kč</strong> <a href=""><img src="images/cross_ico.png" class="delete"></a></td>
+                    </tr>
+
+                    <tr>
+                        <td class="cart_product">
+                            <img src="images/car_ico.png">
+                            Česká pošta (balík do ruky) - dobírka
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="cart_sum"><strong>100 Kč</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="cart_options" id="transport">
+                <h2>Volba dopravy</h2>
+                <table>
+                    <tbody>
+                        <tr class="border selected">
+                            <td><input type="checkbox"></td>
+                            <td>
+                               <strong>Česká pošt - balík do ruky</strong> <img src="images/cart_info_selected.png" title="Krátký popisek :)">
+                            </td>
+                            <td>
+                                <strong>79 Kč s DPH</strong>
+                            </td>
+                        </tr>
+                        <tr class="border">
+                            <td><input type="checkbox"></td>
+                            <td>
+                                <strong>Přepravní sluřba DPD</strong> <img src="images/cart_info.png">
+                            </td>
+                            <td>
+                                <strong>79 Kč s DPH</strong>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>
+                                <strong>Osobní odběr</strong> <img src="images/cart_info.png">
+                            </td>
+                            <td>
+                                <strong>Zdarma</strong>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="cart_options" id="payment">
+                <h2>Volba platby</h2>
+                <table>
+                    <tbody>
+                        <tr class="border selected">
+                            <td><input type="checkbox"></td>
+                            <td>
+                                <strong>Dobírka</strong> (příplatek 40Kč)<img src="images/cart_info_selected.png">
+                            </td>
+                        </tr>
+                        <tr class="border">
+                            <td><input type="checkbox"></td>
+                            <td>
+                                <strong>Bankovní převod</strong> <img src="images/cart_info.png">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>
+                                <strong>V hotovosti</strong> <img src="images/cart_info.png">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div id="cart_form">
+                <ul class="tabs">
+                    <li class="active"><a href="">Nechci se registrovat</a></li>
+                    <li><a href="">Chci se přihlásit</a></li>
+                    <li><a href="">Chci se registrovat</a></li>
+                </ul>
+                
+                <h2>Doručovací adresa</h2>
+                
+                <div class="form_line border">
+                    <label>Email <span>*</span></label>
+                    <input type="email">
+                </div>
+                
+                <div class="form_line border">
+                    <label>Jméno a příjmení <span>*</span></label>
+                    <input type="text">
+                </div>
+                
+                <div class="form_line border">
+                    <label>Adresa <span>*</span></label>
+                    <input type="text">
+                </div>
+                
+                <div class="form_line border">
+                    <label>Město <span>*</span></label>
+                    <input type="text">
+                </div>
+                
+                <div class="form_line border">
+                    <label>PSC <span>*</span></label>
+                    <input type="text" class="input_large">
+                </div>
+                
+                <div class="form_line border">
+                    <label>Země <span>*</span></label>
+                    <select>
+                        <option>Česká republika</option>
+                        <option>Další</option>
+                        <option>Další</option>
+                    </select>
+                </div>
+                
+                <div class="form_line border">
+                    <label>Telefon <span>*</span></label>
+                    <input type="text" class="input_small">
+                    <input type="text" class="input_large">
+                </div>
+                
+                <div class="form_line border">
+                    <label>Slevový kód</label>
+                    <input type="text" class="input_large">
+                </div>
+                
+                <div class="form_line">
+                    <label>Poznámka k objednávce</label>
+                    <textarea></textarea>
+                </div>
+                
+                <p class="required">* Povinný údaj</p>
+
+                <div class="checkbox_line">
+                    <input id="ip_company_info" type="checkbox">
+                    <label for="ip_company_info">Firemní údaje</label>
+                </div>
+
+                <div id="hidden_form" class="hide">
+                    <div class="form_line border">
+                        <label>Firma</label>
+                        <input type="text" class="input_small">
+                    </div>
+
+                    <div class="form_line border">
+                        <label>IČ</label>
+                        <input type="text" class="input_small">
+                    </div>
+
+                    <div class="form_line border">
+                        <label>DIČ</label>
+                        <input type="text" class="input_small">
+                    </div>
+                </div>
+
+                <h2>Fakturační adresa</h2>
+
+                <div class="checkbox_line billing_information">
+                    <input id="ip_billing_information" type="checkbox">
+                    <label for="ip_billing_information">Zaškrtněte, pokud je fakturační adresa odlišná od doručovací</label>
+                </div>
+
+                <div id="cart_form_control"></div>
+            </div>
+
+            <p class="featured_products">Doporučujeme koupit</p>
+            <div id="product_box" class="product_box_border_top">
+                <div class="products_box">
+                    <a href="" class="product">
+                        <div class="label_1">
+                            <img src="images/label_action.png">
+                        </div>
+                        <img src="images/products/prod_1.png" class="product_image">
+                        <h3>Allwhey Protein</h3>
+                        <p class="products_weight">907g</p>
+                        <p class="products_price"><span>799</span> Kč</p>
+                    </a>
+                    <a href="" class="product">
+                        <div class="label_2">
+                            <img src="images/label_action.png">
+                            <img src="images/label_top.png">
+                        </div>
+                        <img src="images/products/prod_2.png" class="product_image">
+                        <h3>Allwhey Protein</h3>
+                        <p class="products_weight">907g</p>
+                        <p class="products_price"><span>799</span> Kč</p>
+                    </a>
+                    <a href="" class="product">
+                        <img src="images/products/prod_3.png" class="product_image">
+                        <h3>Allwhey Protein</h3>
+                        <p class="products_weight">907g</p>
+                        <p class="products_price"><span>799</span> Kč</p>
+                    </a>
+                </div>
+            </div>
+
+            <div id="more_products">
+                <a href=""><img src="images/more_products.png"></a>
+            </div>
+        </div>
+        <!-- Cart content end -->
+        
+        <div id="right_sidebar">
+            <p class="info"><strong>Pomoc s nákupem <br />i objednávkou</strong></p>
+            
+            <p class="large"><strong>Volejte</strong></p>
+            <p class="big"><strong>634 824 111</strong></p>
+            <p class="small">pracovní dny 8-18 hod</p>
+            
+            <p class="contact small">Napište nám</p>
+            <p class="big"><strong>info@svaly.cz</strong></p>
+        </div>
+        
+        <div id="facebook">
+            <img src="images/facebook.png">
+        </div>
+        
+        <div id="links">
+            <img src="images/footer_big_ico.png" id="footer_image">
+
+            <div class="column">
+                <h4>Obchod</h4>
+                <ul class="links_list">
+                    <li><a href="">Hlavní strana</a></li>
+                    <li class="active"><a href="">Obchodní podmínky</a></li>
+                    <li><a href="">Reklamace</a></li>
+                    <li><a href="">Kontakt</a></li>
+                    <li><a href="">O nás</a></li>
+                </ul>
+
+                <h4 class="links_why">Proč nakupovat u nás</h4>
+                <ul class="links_list">
+                    <li><a href="">Pouze originální zboží</a></li>
+                    <li><a href="">Doprava zdarma</a></li>
+                    <li><a href="">Dárky k objednávce</a></li>
+                    <li><a href="">Výhodná registrace</a></li>
+                </ul>
+            </div>
+
+            <div class="column">
+                <h4>Kategorie</h4>
+                <ul class="links_list">
+                    <li><a href="">Kulturistika</a></li>
+                    <li><a href="">Vytrvalost</a></li>
+                    <li><a href="">Zdraví a regenerace</a></li>
+                    <li><a href="">Fitness ostatní</a></li>
+                </ul>
+
+                <a href=""><img src="images/facebook-footer.png" alt="Svaly.cz najdete i na facebooku" id="footer_facebook"></a>
+                <a href=""><img src="images/heureka-footer.png" alt="Porovnejte si ceny ze svaly.cz na heurece" id="footer_heureka"></a>
+            </div>
+
+            <div class="column">
+                <h4>Pro zákazníky</h4>
+                <ul class="links_list">
+                    <li><a href="">Jak nakupovat</a></li>
+                    <li><a href="">Výhody registrace</a></li>
+                    <li><a href="">Ceny dopravy</a></li>
+                    <li><a href="">Možnosti platby</a></li>
+                    <li><a href="">Vrácení peněz</a></li>
+                    <li><a href="">Ochrana osobních údajů</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div id="links_contact_form">
+                <h4>Rychlý kontakt</h4>
+                <p>Potřebujete poradit s výběrem? Napište nám</p>
+                <form action="#" method="POST">
+                    <input type="text" placeholder="Jméno">
+                    <input type="text" placeholder="Email">
+                    <textarea name="text"></textarea>
+                    <input type="submit" value="Odeslat">
+                </form>
+            </div>
+        </div>
+
+        <div class="cleaner"></div>
+    </div>
+    <!-- Content end -->
+
+    <!-- Footer -->
+    <div id="footer_wrapper">
+        <div id="footer_content" class="center">
+            <p class="footer_title"><strong>SVALY.CZ - Internetový obchod s kulturistickou výživou, doplňky stravy, zdravou výživou a fitness vybavením</strong></p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
+            <p id="copyright"><strong>&#169; 2013 Svaly.cz</strong></p>
+            <p id="author"><strong>Design & logo: Jiří Peřina</strong></p>
+        </div>
+    </div>
+    <!-- Footer end -->
+
+</body>
+</html>

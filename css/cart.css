@@ -1,0 +1,349 @@
+#cart_banner{
+    width: 960px;
+    float: left;
+}
+
+#cart_content{
+    width: 720px;
+    float: left;
+}
+
+#cart_content h2{
+    width: 100%;
+    font-size: 24px;
+    float: left;
+    margin: 23px 0 23px 0;
+    color: #dd0034;
+}
+
+.border{
+    border-bottom: 1px solid #dadada;
+}
+
+#cart_content_top{
+    width: 681px;
+    padding: 36px 0 64px 39px;
+}
+
+#cart_content_top img{
+    float: left;
+}
+
+#cart_content_top .info{
+    margin: 0 10px 0 31px;
+}
+
+#cart_content_top p{
+    float: left;
+    font-size: 14px;
+    color: #717070;
+    margin-top: 5px;
+}
+
+#cart_products{
+    width: 670px;
+    margin-left: 25px;
+    font-size: 14px;
+    border-collapse: collapse;
+}
+
+#cart_products tfoot{
+    width: 670px;
+    color: #707070;
+}
+
+/*#cart_products tfoot tr td{
+    border-left: 1px solid red;
+}*/
+
+#cart_products tfoot .sum_price{
+    font-size: 25px;
+    /* Zde má být Myriad Pro*/
+    padding: 23px 0 0 0;
+}
+
+#cart_products tfoot .sum_price_text{
+    text-align: right;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 28px 40px 0 0;
+}
+
+#cart_products thead{
+    background: url('../images/table_header.png') no-repeat;
+}
+
+#cart_products thead th{
+    height: 50px;
+    color: #fff;
+    font-size: 14px;
+}
+
+#cart_products tbody td{
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #717070;
+}
+
+#cart_products tbody td input{
+    width: 44px;
+    height: 31px;
+    background: #4d4d4d;
+    color: #fff;
+    padding-left: 5px;
+    border: none;
+    font-weight: bold;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#cart_products tbody{
+    border-bottom: 1px solid #717070;
+}
+
+#cart_products .delete{
+    float: right;
+}
+
+#cart_products .cart_product{
+    width: 322px;
+}
+
+#cart_products .cart_product img{
+    float: left;
+}
+
+#cart_products .cart_product p,
+#cart_products .cart_product a{
+    width: 255px;
+    float: left;
+    text-align: left;
+}
+
+#cart_products .cart_product .product_title{
+    color: #dd0034;
+    font-weight: bold;
+}
+
+#cart_products .cart_product .other_variant{
+    color: #18afd7;
+    font-size: 12px;
+}
+
+#cart_products .cart_price{
+    width: 97px;
+}
+
+#cart_products .cart_count{
+    width: 66px;
+}
+
+#cart_products .cart_availability{
+    width: 92px;
+}
+
+#cart_products .cart_availability span{
+    color: #0eb100;
+}
+
+#cart_products .cart_sum{
+    width: 92px;
+}
+
+#transport{
+    width: 375px;
+    margin-left: 25px;
+}
+
+#payment{
+    width: 187px;
+    margin-left: 108px;
+}
+
+#payment table tr td input{
+    margin-right: 7px;
+}
+
+.cart_options {
+    float: left;
+}
+
+.cart_options .selected{
+    background: #18afd7;
+    color: #fff;
+}
+
+.cart_options table{
+    width: 100%;
+    float: left;
+    border-collapse: collapse;
+    font-size: 14px;
+    color: #717070;
+}
+
+.cart_options table tr td{
+    height: 58px;
+    padding-left: 5px;
+}
+
+.cart_options table tr td input{
+    margin-top: 8px;
+    margin-left: 12px;
+}
+
+.cart_options table tr td img{
+    position: relative;
+    top: 3px;
+    margin-left: 5px;
+}
+
+.cart_options table tr td img:hover{
+    cursor: pointer;
+}
+
+#cart_form{
+    width: 672px;
+    float: left;
+    margin-left: 25px;
+    padding-top: 50px;
+    border-top: 1px solid #dadada;
+}
+
+#cart_form .checkbox_line{
+    width: 100%;
+    float: left;
+    margin-top: 7px;
+    font-size: 14px;
+    color: #717070;
+}
+
+#cart_form .checkbox_line input{
+    float: left;
+    margin: 2px 5px 0 0;
+}
+
+#cart_form .billing_information{
+    font-size: 12px;
+    margin-top: 0;
+}
+
+#cart_form .form_line{
+    width: 100%;
+    float: left;
+    padding: 10px 0 10px 0;
+}
+
+#cart_form .form_line label{
+    width: 150px;
+    float: left;
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #717070;
+}
+
+#cart_form .form_line label span{
+    color: #df1041;
+}
+
+#cart_form .form_line input,
+#cart_form .form_line select,
+#cart_form .form_line textarea{
+    width: 280px;
+    height: 28px;
+    float: left;
+    padding: 0 10px 0 10px;
+    border: 1px solid #999999;
+}
+
+#cart_form .form_line textarea{
+    height: 150px;
+}
+
+#cart_form .form_line select{
+    width: 150px;
+    padding-right: 0;
+    color: #717070;
+}
+
+#cart_form .form_line .input_large{
+    width: 130px;
+}
+
+#cart_form .form_line .input_small{
+    width: 35px;
+    margin-right: 5px;
+}
+
+#cart_form .tabs{
+    width: 652px;
+    margin-left: 0;
+}
+
+#cart_form .tabs li a{
+    color: #fff;
+    font-weight: bold;
+    text-transform: none;
+    text-decoration: none;
+}
+
+#cart_form .tabs .active a,
+#cart_form .tabs .active a:hover{
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+#cart_form .required{
+    float: right;
+    margin-top: 13px;
+    color: #df1041;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#cart_form_control{
+    width: 670px;
+    height: 93px;
+    float: left;
+    margin: 31px 0 71px 0;
+}
+
+#right_sidebar{
+    width: 200px;
+    float: right;
+    padding-top: 40px;
+}
+
+#right_sidebar p{
+    color: #717070;
+}
+
+#right_sidebar .info{
+/*    width: 180px;*/
+    font-size: 18px;
+    color: #9b9b9b;
+    line-height: 20px;
+    margin-bottom: 31px;
+}
+
+#right_sidebar .small{
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#right_sidebar .large{
+    font-size: 14px;
+}
+
+#right_sidebar .big{
+    font-size: 16px;
+    line-height: 18px;
+    color: #dd0034;
+}
+
+#right_sidebar .contact{
+    display: block;
+    margin-top: 26px;
+}
